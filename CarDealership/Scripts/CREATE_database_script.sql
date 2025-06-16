@@ -76,10 +76,10 @@ finance bool
 );
 
 insert into sales_contracts(salesContractID, dealershipID, dateOfSale, customerName, vehicleVIN, monthlyPayment, salesTax, recordingFee, processingFee, finance) values
-(1, 2, '2025-05-06', "Kyle Munix", 567890123, 1253.75, 1475, 100, 495, true),
-(2, 3, '2023-10-03', "Monty Gregar", 789012345, 1245.25, 1465, 100, 495, true),
-(3, 1, '2019-01-02', "Heather Marlene", 102345678, 0, 765, 100, 495, false),
-(4, 4, '2024-06-12', "Lucille Webber", 456789012, 0, 1799.95, 100, 495, false);
+(2, '2025-05-06', "Kyle Munix", 567890123, 1253.75, 1475, 100, 495, true),
+(3, '2023-10-03', "Monty Gregar", 789012345, 1245.25, 1465, 100, 495, true),
+(1, '2019-01-02', "Heather Marlene", 102345678, 0, 765, 100, 495, false),
+(4, '2024-06-12', "Lucille Webber", 456789012, 0, 1799.95, 100, 495, false);
 
 create table lease_contracts(
 leaseContractID int primary key auto_increment,
